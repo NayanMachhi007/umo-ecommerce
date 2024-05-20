@@ -1,0 +1,30 @@
+﻿[
+  {
+    "outputFile": "wwwroot/scss/_global.css",
+    "inputFile": "wwwroot/scss/_global.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/_navigation.css",
+    "inputFile": "wwwroot/scss/_navigation.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/main.css",
+    "inputFile": "wwwroot/scss/main.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/site.css",
+    "inputFile": "wwwroot/scss/site.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/_color.css",
+    "inputFile": "wwwroot/scss/_color.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/_bannerswiper.css",
+    "inputFile": "wwwroot/scss/_bannerswiper.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/_mixin.css",
+    "inputFile": "wwwroot/scss/_mixin.scss"
+  }
+]

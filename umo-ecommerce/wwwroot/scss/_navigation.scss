@@ -1,0 +1,151 @@
+﻿.header-main {
+    .header-navigation-main {
+        .navigation-wrapper {
+            position: relative;
+            padding: 2rem 0;
+
+            .nav-logo {
+
+                img {
+                    width: none;
+                    height: none;
+                    object-fit: none;
+                }
+            }
+
+
+
+
+            .navigation-list-main {
+                .navigation-list-wrapper {
+
+
+                    .navigation-list-ul {
+                        text-transform: uppercase;
+                        height: 100%;
+                        margin-bottom: 0;
+
+
+                        .navigation-list-li {
+
+
+                            .navigation-sub-details-main {
+                                visibility: hidden;
+                                position: absolute;
+                                top: 20px;
+                                text-decoration: none;
+                                color: black;
+                                left:17%;
+                                padding:2rem;
+                                background:white;
+                                z-index:2;
+
+                                .navigation-sub-details-wrapper {
+                                    .navigation-sub-details-ul-main {
+                                        .nav-sub-ul {
+                                            .nav-sub-li {
+                                                .nab-sub-link {
+                                                    text-decoration: none;
+                                                    color: black;
+                                                    display: inline-block;
+                                                    position: relative;
+                                                    padding: 5px 0;
+
+
+                                                    &::after {
+                                                        position: absolute;
+                                                        content: '';
+                                                        bottom: 20px;
+                                                        height: 2px;
+                                                        width: 0%;
+                                                        background: black;
+                                                        top: 20px;
+                                                        left: 0;
+                                                        transition: width 0.28s cubic-bezier(0.47, 0, 0.745, 0.715);
+                                                    }
+
+                                                    &:hover {
+                                                        &::after {
+                                                            width: 80%;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+
+                            &:hover {
+
+                                &::before {
+                                    display: block;
+                                    position: absolute;
+                                    top: 0;
+                                    width: 7.5rem;
+                                    height: 100%;
+                                    background-color: transparent;
+                                    content: '';
+                                }
+
+                                .navigation-sub-details-main {
+                                    width: 60%;
+                                    top: 100%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                    pointer-events: auto;
+                                }
+                            }
+
+                            .navigation-list-link {
+                                display: inline-block;
+                                position: relative;
+                                padding-top: 2px;
+                                padding-bottom: 2px;
+                                color: #222222;
+                                font-weight: 500;
+                                line-height: 1.5rem;
+                                text-decoration: none;
+                                text-transform: uppercase;
+
+
+                                &::after {
+                                    content: '';
+                                    display: block;
+                                    position: absolute;
+                                    top: 100%;
+                                    left: 0rem;
+                                    width: 0;
+                                    height: 2px;
+                                    transition: width 0.28s cubic-bezier(0.47, 0, 0.745, 0.715);
+                                    background-color: currentColor;
+                                }
+
+                                &:hover {
+                                    &::after {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .navigation-right-main {
+            padding: 1rem 0;
+
+            .navigation-right-social {
+                .navigation-right-span {
+                    margin: 0 1rem;
+                    cursor: pointer;
+                    font-size: 1.8rem;
+                    gap: 0.8rem;
+                }
+            }
+        }
+    }
+}

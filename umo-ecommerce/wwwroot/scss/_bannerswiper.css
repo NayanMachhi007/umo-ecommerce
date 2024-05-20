@@ -1,0 +1,15 @@
+﻿.banner-swiper .swiper-slide-main {
+  position: relative;
+}
+.banner-swiper .swiper-slide-main .banner-bg {
+  background: #F5E6E0;
+}
+.banner-swiper .swiper-slide-main .banner-swiper-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  height: 50vh;
+  background: green;
+}
